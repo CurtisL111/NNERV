@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+import nnerv
+from nnerv import visualizer
+import argparse
+
+parser = argparse.ArgumentParser(description='Nanoparticle NER Visualizer')
+
+parser.add_argument('-s', '--silent', action='store_true', help='omit command line output')
+parser.add_argument('-d', '--doi', nargs=1,  default='10.1021/acs.biomac.8b00242', type=str, required=True, help='DOI to analyze')
+parser.add_argument('-m', '--model', nargs=1, type=str, help='path or name of spaCy model')
+parser.add_argument('-o', '--output', nargs=1, type=str, help='output JSONL file path')
+parser.add_argument('-db', '--database', nargs=1, type=str, help='store to an SQLite database')
+
+args = parser.parse_args()
+
+visualizer.main(args.doi[0],args.model,args.output,args.database,args.silent)
