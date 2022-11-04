@@ -4,7 +4,7 @@
 
 This script can extract, save, and visualize nanoparticle entities. The system consists of three components, get metadata by DOI, annotate the text with trained model and output the result.
 
-The trained model can be downloaded from release.  
+The trained model can be downloaded from release.
 
 # Usage
 - Specify PubMed E-utilities API key in doi2metadata.py, you can find the instructions here https://www.ncbi.nlm.nih.gov/books/NBK25497/
