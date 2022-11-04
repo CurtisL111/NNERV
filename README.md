@@ -10,7 +10,7 @@ The trained model can be downloaded from release.
 - Specify PubMed E-utilities API key in doi2metadata.py, you can find the instructions here https://www.ncbi.nlm.nih.gov/books/NBK25497/
 
 - Specify desired default model path in visualizer.py
-
+ 
 - ```chmod nerv```, make ```nerv``` executable 
 
 - ```./nerv -h ``` 
