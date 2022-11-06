@@ -8,7 +8,7 @@ The trained model can be downloaded from release.
 
 # Usage
 
-- ```pip install spacy requests xmltodict shutup rich```
+- Install dependencies ```pip install spacy requests xmltodict shutup rich```
 
 - Specify PubMed E-utilities API key in doi2metadata.py, you can find the instructions here https://www.ncbi.nlm.nih.gov/books/NBK25497/
 
